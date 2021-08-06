@@ -21,24 +21,20 @@ public class PillarType : Pillar
     }
     private void FixedUpdate()
     {
-        //if (pillarMonitor.isDisplaying)
-        //{
-            if (isLifting)
+        if (isLifting)
+        {
+            LiftPillar();
+        }
+        if (isScrolling)
+        {
+            if (!isScrollExit)
             {
-                LiftPillar();
+                EnterScrollText(scrollSpeed);
             }
-            if (isScrolling)
+            else if (isScrollExit)
             {
-                if (!isScrollExit)
-                {
-                    EnterScrollText(scrollSpeed);
-                }
-                else if (isScrollExit)
-                {
-                    ExitScrollText(scrollSpeed);
-                }
+                ExitScrollText(scrollSpeed);
             }
-        //}
+        }
     }
-    
 }
