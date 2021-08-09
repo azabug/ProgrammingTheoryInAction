@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Title Screen
+  m_text: Next Scene
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -369,6 +369,7 @@ MonoBehaviour:
   voltage: 24.4
   isLit: 0
   ticker: 0
+  lightBulb: {fileID: 0}
 --- !u!1 &216572994
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,7 +473,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1711,6 +1712,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   optimumInput: 24.4
   output: 5
+  activeOutput: 0
   lightSource: {fileID: 1280369283}
   lightBox: {fileID: 0}
   powerButton: {fileID: 0}

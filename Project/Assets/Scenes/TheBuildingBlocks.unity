@@ -1300,7 +1300,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0.39
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.802082
@@ -1833,6 +1833,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 429560428}
     m_Modifications:
+    - target: {fileID: 5314948030519360004, guid: 2787c54b153a04158a2b7af16be41e96, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2868278efdd174affab072050413c24d, type: 2}
     - target: {fileID: 5963471118129634257, guid: 2787c54b153a04158a2b7af16be41e96, type: 3}
       propertyPath: m_Name
       value: Dwelling_Grade_0_Tile_8x8
