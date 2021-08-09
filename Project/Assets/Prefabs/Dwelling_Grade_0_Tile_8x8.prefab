@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6451777887511724395}
   - component: {fileID: 7937183516814757582}
   - component: {fileID: 5314948030519360004}
-  - component: {fileID: 5697446806326629709}
+  - component: {fileID: 8333669725836790429}
   m_Layer: 0
   m_Name: Dwelling_Grade_0_Tile_8x8
   m_TagString: Building
@@ -82,7 +82,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5697446806326629709
+--- !u!114 &8333669725836790429
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,8 +91,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 5963471118129634257}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c32c9dcfbd1c24d3a820a5115ffc9355, type: 3}
+  m_Script: {fileID: 11500000, guid: a2e501de13d2340dc90b5bf4806c6407, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grade: 0
+  grade: 1
   buildingManager: {fileID: 0}

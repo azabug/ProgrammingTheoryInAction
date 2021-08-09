@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4016514521846299369}
   - component: {fileID: 5169045147465036}
   - component: {fileID: 2879676418114404742}
-  - component: {fileID: -3410224493545687050}
+  - component: {fileID: 2332189404423023737}
   m_Layer: 0
   m_Name: BasicBuildingShape
   m_TagString: Building
@@ -82,7 +82,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &-3410224493545687050
+--- !u!114 &2332189404423023737
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,8 +91,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 4392793052186992723}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c32c9dcfbd1c24d3a820a5115ffc9355, type: 3}
+  m_Script: {fileID: 11500000, guid: a2e501de13d2340dc90b5bf4806c6407, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grade: 1
+  grade: 0
   buildingManager: {fileID: 0}

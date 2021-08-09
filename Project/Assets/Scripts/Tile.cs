@@ -25,6 +25,11 @@ public class Tile : MonoBehaviour
                 Garage building = GameObject.FindGameObjectWithTag("Building").GetComponent<Garage>();
                 building.Upgrade();
             }
+            else if (occupationType == "Dwelling")
+            {
+                Dwelling building = GameObject.FindGameObjectWithTag("Building").GetComponent<Dwelling>();
+                building.Upgrade();
+            }
         }
         
     }

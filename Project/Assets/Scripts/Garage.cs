@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Inheritance
 public class Garage : Shop
 {
     public BuildingManager buildingManager;
     private void Start()
     {
-        
+        //Abstraction
         SetBuildingType();
         SetShopType();
     }
@@ -15,10 +16,12 @@ public class Garage : Shop
     {
         
     }
+    //Polymorphism
     public override void SetBuildingType()
     {
         TypeOfBuilding = "Shop";
     }
+    //Polymorphism
     public override void SetShopType()
     {
         if (grade == 0)

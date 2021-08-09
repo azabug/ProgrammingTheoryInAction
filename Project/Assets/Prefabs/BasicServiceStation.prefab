@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3518260188557690801}
   - component: {fileID: 539451832883103764}
   - component: {fileID: 2348754596861492446}
-  - component: {fileID: 8114917277354416435}
+  - component: {fileID: 5457730710410388365}
   m_Layer: 0
   m_Name: BasicServiceStation
   m_TagString: Building
@@ -82,7 +82,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &8114917277354416435
+--- !u!114 &5457730710410388365
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,5 +94,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c32c9dcfbd1c24d3a820a5115ffc9355, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grade: 2
+  grade: 0
   buildingManager: {fileID: 0}
