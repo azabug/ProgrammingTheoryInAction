@@ -20,15 +20,15 @@ public class Tile : MonoBehaviour
     {
         if(isOccupied)
         {
-            if (occupationType == "Garage")
+            if (occupationType == "Shop")
             {
-                Garage building = GameObject.FindGameObjectWithTag("Building").GetComponent<Garage>();
-                building.Upgrade();
+                Garage shop = GameObject.FindGameObjectWithTag("Shop").GetComponent<Garage>();
+                shop.Upgrade();
             }
             else if (occupationType == "Dwelling")
             {
-                Dwelling building = GameObject.FindGameObjectWithTag("Building").GetComponent<Dwelling>();
-                building.Upgrade();
+                Dwelling dwelling = GameObject.FindGameObjectWithTag("Dwelling").GetComponent<Dwelling>();
+                dwelling.Upgrade();
             }
         }
         
@@ -49,7 +49,7 @@ public class Tile : MonoBehaviour
     {
         if(!isOccupied)
         {
-            buildingManager.InitialiseBuilding(0);
+            buildingManager.InitialiseBuilding(0, occupationType);
             isOccupied = true;
         }
     }

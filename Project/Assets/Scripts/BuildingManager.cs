@@ -4,16 +4,38 @@ using UnityEngine;
 
 public class BuildingManager : MonoBehaviour
 {
+    public GameObject[] dwellings;
+    public GameObject[] shops;
     public GameObject[] buildings;
     public GameObject tile;
 
-    public void InitialiseBuilding(int grade)
+    public void InitialiseBuilding(int grade, string type)
     {
-        buildings[grade].SetActive(true);
+        if(type == "Dwelling")
+        {
+            dwellings[grade].SetActive(true);
+        }
+        else if (type == "Shop")
+        {
+            shops[grade].SetActive(true);
+        }
+        
     }
-    public void UpdateBuilding(int grade)
+    public void UpdateBuilding(int grade, string type)
     {
-        int c = buildings.Length - 1;
+        int c = 0;
+        Debug.Log(grade + ", " + type);
+        if (type == "Dwelling")
+        {
+            c = dwellings.Length - 1;
+            buildings = dwellings;
+        }
+        else if (type =="Shop")
+        {
+            c = shops.Length - 1;
+            buildings = shops;
+        }
+        
         if(c >= grade)
         {
             int exGrade = grade - 1;

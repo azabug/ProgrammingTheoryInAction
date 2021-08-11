@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3203817811890065847}
   m_Layer: 0
   m_Name: Dwelling_Grade_2_Tile_8x8
-  m_TagString: Building
+  m_TagString: Dwelling
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

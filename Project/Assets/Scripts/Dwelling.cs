@@ -18,7 +18,7 @@ public class Dwelling : Residential
     //Polymorphism
     public override void SetBuildingType()
     {
-        TypeOfBuilding = "Shop";
+        TypeOfBuilding = "Dwelling";
     }
     //Polymorphism
     public override void SetDwellingType()
@@ -48,6 +48,6 @@ public class Dwelling : Residential
         grade += 1;
         //Instantiate(buildingPrefabTwo, transform);
         SetDwellingType();
-        buildingManager.UpdateBuilding(grade);
+        buildingManager.UpdateBuilding(grade, TypeOfBuilding);
     }
 }

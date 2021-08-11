@@ -42,6 +42,6 @@ public class Garage : Shop
         grade += 1;
         //Instantiate(buildingPrefabTwo, transform);
         SetShopType();
-        buildingManager.UpdateBuilding(grade);
+        buildingManager.UpdateBuilding(grade, TypeOfBuilding);
     }
 }
